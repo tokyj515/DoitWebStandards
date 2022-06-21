@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+  <title>박스모델</title>  
+	<style>
+    div {
+      margin-bottom:20px;
+    }
+		.box1 {
+			width:200px;
+			height:100px;
+      padding:20px;
+      border:10px solid #ccc;
+		}
+    .box2 {
+      box-sizing: border-box; /*박스의 넓이를 border-box까지만, border와 padding까지의 합이 box사이즈임*/
+			width:200px;
+			height:100px;
+      padding:20px;
+      border:10px solid #00f;
+    }
+	</style>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
+</html>

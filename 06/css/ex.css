@@ -1,0 +1,41 @@
+/*css파일을 여러 html에서 사용하기 위해 
+보통 다른 파일로 만든 후 html파일에서 링크로 연결함*/
+
+/*
+선택자 {
+  스타일 규칙
+}
+*/
+
+/*
+전체 선택자: *
+타입 선택자
+클래스 선택자: 문서 안에서 여러번 사용 가능
+아이디 선택자: 문서 안에서 한번만 사용 가능, #
+그룹 선택자: 그냥 여러 선택자를 쉼표로 나열해서 그에 전부 스타일 적용
+*/
+
+
+*{ /*기본으로 지정되어 있는 스타일을 초기화시켜줌*/
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrap {
+  border: 1px solid red;
+  padding: 20px;
+}
+h1 {      
+  padding:10px;
+  background-color:#222;
+  color:white;
+  margin: 20px;
+
+}
+p{
+  color: blue;
+}
+.redtext{
+  color:red;
+}
